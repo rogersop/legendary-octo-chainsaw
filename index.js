@@ -1,6 +1,7 @@
 class legendaryOctoChainsaw {
   constructor(name) {
     this.name = name;
+    this.lettingRip = false;
   }
 
   slash() {
@@ -9,5 +10,10 @@ class legendaryOctoChainsaw {
 
   octo() {
     return 8;
+  }
+
+  letRip() {
+    console.log("BRRRRR!!!!");
+    this.lettingRip = true;
   }
 }
