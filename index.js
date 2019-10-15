@@ -6,4 +6,8 @@ class legendaryOctoChainsaw {
   slash() {
     console.log("DIIEEE!!!");
   }
+
+  octo() {
+    return 8;
+  }
 }
