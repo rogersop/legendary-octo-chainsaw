@@ -5,11 +5,13 @@ class legendaryOctoChainsaw {
   }
 
   slash() {
-    console.log("DIIEEE!!!");
+    console.log('DIIEEE!!!');
   }
 
   octo() {
-    return 8;
+    const octopus = 'octopus';
+    console.log(octopus);
+    return 4;
   }
 
   letRip() {
